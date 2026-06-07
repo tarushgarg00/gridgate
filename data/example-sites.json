@@ -1,0 +1,250 @@
+[
+  {
+    "id": "new-albany-oh",
+    "name": "New Albany, OH",
+    "inputLabel": "New Albany, OH",
+    "coordinates": { "lat": 40.0817, "lng": -82.8088 },
+    "state": "OH",
+    "region": "PJM",
+    "transmission": [
+      {
+        "id": "OH-345-NEWALBANY",
+        "voltageKv": 345,
+        "voltageClass": "345+",
+        "owner": "AEP area",
+        "status": "IN SERVICE",
+        "type": "AC; OVERHEAD",
+        "distanceMiles": 1.8,
+        "sourceSubstation": "NEW ALBANY",
+        "targetSubstation": "EAST BROAD STREET"
+      },
+      {
+        "id": "OH-138-NEWALBANY",
+        "voltageKv": 138,
+        "voltageClass": "100-161",
+        "owner": "Not available",
+        "status": "IN SERVICE",
+        "type": "AC; OVERHEAD",
+        "distanceMiles": 2.9,
+        "sourceSubstation": "UNKNOWN",
+        "targetSubstation": "NEW ALBANY"
+      }
+    ],
+    "substations": [
+      {
+        "id": "OH-SUB-NEWALBANY",
+        "name": "NEW ALBANY",
+        "city": "NEW ALBANY",
+        "state": "OH",
+        "maxVoltageKv": 345,
+        "minVoltageKv": 138,
+        "lineCount": 4,
+        "distanceMiles": 2.1
+      }
+    ],
+    "flood": {
+      "zone": "X",
+      "subtype": "AREA OF MINIMAL FLOOD HAZARD",
+      "sfha": false,
+      "baseFloodElevation": null,
+      "depth": null
+    },
+    "wetlands": {
+      "intersectsWetland": false,
+      "features": [],
+      "extensive": false
+    },
+    "landcover": {
+      "className": "Developed / open land mix",
+      "signal": "favorable",
+      "humanReviewFlag": false,
+      "availabilityRisk": "clear-first-pass",
+      "note": "First-pass land-cover signal only; parcel-specific due diligence remains manual."
+    },
+    "peering": {
+      "nearestFacility": {
+        "id": 525,
+        "name": "180 E Broad St.",
+        "distanceMiles": 15.9,
+        "city": "Columbus",
+        "state": "OH",
+        "networkCount": 4,
+        "ixCount": 1
+      },
+      "facilitiesWithin25Miles": 8
+    },
+    "eia": {
+      "state": "OH",
+      "respondent": "PJM",
+      "industrialPriceCentsKwh": 8.52,
+      "pricePeriod": "2025",
+      "gridMix": [
+        { "fuel": "NG", "valueMwh": 39268, "share": 0.43 },
+        { "fuel": "NUC", "valueMwh": 32556, "share": 0.35 },
+        { "fuel": "COL", "valueMwh": 12123, "share": 0.13 },
+        { "fuel": "WAT", "valueMwh": 3900, "share": 0.04 },
+        { "fuel": "Other", "valueMwh": 4500, "share": 0.05 }
+      ]
+    }
+  },
+  {
+    "id": "lebanon-in",
+    "name": "Lebanon, IN",
+    "inputLabel": "Lebanon, IN",
+    "coordinates": { "lat": 40.0481, "lng": -86.4690 },
+    "state": "IN",
+    "region": "MISO",
+    "transmission": [
+      {
+        "id": "IN-345-LEBANON",
+        "voltageKv": 345,
+        "voltageClass": "345+",
+        "owner": "Duke / MISO area",
+        "status": "IN SERVICE",
+        "type": "AC; OVERHEAD",
+        "distanceMiles": 3.7,
+        "sourceSubstation": "LEBANON",
+        "targetSubstation": "WHITESTOWN"
+      }
+    ],
+    "substations": [
+      {
+        "id": "IN-SUB-LEBANON",
+        "name": "LEBANON",
+        "city": "LEBANON",
+        "state": "IN",
+        "maxVoltageKv": 345,
+        "minVoltageKv": 138,
+        "lineCount": 3,
+        "distanceMiles": 4.4
+      }
+    ],
+    "flood": {
+      "zone": "X",
+      "subtype": "AREA OF MINIMAL FLOOD HAZARD",
+      "sfha": false,
+      "baseFloodElevation": null,
+      "depth": null
+    },
+    "wetlands": {
+      "intersectsWetland": false,
+      "features": [],
+      "extensive": false
+    },
+    "landcover": {
+      "className": "Agricultural / developed fringe",
+      "signal": "mixed",
+      "humanReviewFlag": false,
+      "availabilityRisk": "clear-first-pass",
+      "note": "First-pass land-cover signal only; entitlement and parcel assembly remain manual."
+    },
+    "peering": {
+      "nearestFacility": {
+        "id": 2377,
+        "name": "Cologix COL1",
+        "distanceMiles": 31.4,
+        "city": "Columbus",
+        "state": "OH",
+        "networkCount": 29,
+        "ixCount": 2
+      },
+      "facilitiesWithin25Miles": 0
+    },
+    "eia": {
+      "state": "IN",
+      "respondent": "MISO",
+      "industrialPriceCentsKwh": 8.05,
+      "pricePeriod": "2025",
+      "gridMix": [
+        { "fuel": "NG", "valueMwh": 28400, "share": 0.38 },
+        { "fuel": "COL", "valueMwh": 23100, "share": 0.31 },
+        { "fuel": "WND", "valueMwh": 9400, "share": 0.13 },
+        { "fuel": "NUC", "valueMwh": 7600, "share": 0.10 },
+        { "fuel": "Other", "valueMwh": 6100, "share": 0.08 }
+      ]
+    }
+  },
+  {
+    "id": "new-orleans-la",
+    "name": "New Orleans, LA",
+    "inputLabel": "New Orleans, LA floodplain check",
+    "coordinates": { "lat": 29.9, "lng": -90.0 },
+    "state": "LA",
+    "region": "Southeast",
+    "transmission": [
+      {
+        "id": "LA-230-NOLA",
+        "voltageKv": 230,
+        "voltageClass": "220-287",
+        "owner": "Entergy area",
+        "status": "IN SERVICE",
+        "type": "AC; OVERHEAD",
+        "distanceMiles": 2.6,
+        "sourceSubstation": "NINE MILE",
+        "targetSubstation": "NEW ORLEANS"
+      }
+    ],
+    "substations": [
+      {
+        "id": "LA-SUB-NOLA",
+        "name": "NEW ORLEANS AREA",
+        "city": "NEW ORLEANS",
+        "state": "LA",
+        "maxVoltageKv": 230,
+        "minVoltageKv": 115,
+        "lineCount": 2,
+        "distanceMiles": 3.2
+      }
+    ],
+    "flood": {
+      "zone": "AE",
+      "subtype": null,
+      "sfha": true,
+      "baseFloodElevation": null,
+      "depth": null
+    },
+    "wetlands": {
+      "intersectsWetland": true,
+      "features": [
+        {
+          "attribute": "E2EM1P",
+          "type": "Estuarine and Marine Wetland",
+          "acres": 5.4
+        }
+      ],
+      "extensive": false
+    },
+    "landcover": {
+      "className": "Wetland / developed lowland mix",
+      "signal": "manual-check",
+      "humanReviewFlag": true,
+      "availabilityRisk": "unmeasured",
+      "note": "Lowland land-cover signal reinforces environmental diligence need."
+    },
+    "peering": {
+      "nearestFacility": {
+        "id": 888,
+        "name": "New Orleans carrier hotel",
+        "distanceMiles": 10.6,
+        "city": "New Orleans",
+        "state": "LA",
+        "networkCount": 5,
+        "ixCount": 1
+      },
+      "facilitiesWithin25Miles": 2
+    },
+    "eia": {
+      "state": "LA",
+      "respondent": "Southeast",
+      "industrialPriceCentsKwh": 7.18,
+      "pricePeriod": "2025",
+      "gridMix": [
+        { "fuel": "NG", "valueMwh": 35500, "share": 0.61 },
+        { "fuel": "NUC", "valueMwh": 12400, "share": 0.21 },
+        { "fuel": "COL", "valueMwh": 4100, "share": 0.07 },
+        { "fuel": "WAT", "valueMwh": 2600, "share": 0.04 },
+        { "fuel": "Other", "valueMwh": 3900, "share": 0.07 }
+      ]
+    }
+  }
+]

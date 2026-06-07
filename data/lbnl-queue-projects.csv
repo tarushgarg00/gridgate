@@ -1,0 +1,5 @@
+region,active_projects,active_mw,typical_wait_years,congestion_level,note
+PJM,2340,365000,5.0,High,"Regional generation/storage queue context from LBNL Queued Up workbook; not a site-specific load interconnection position."
+MISO,1880,315000,5.6,Severe,"Regional generation/storage queue context from LBNL Queued Up workbook; not a site-specific load interconnection position."
+ERCOT,1160,255000,3.8,Moderate,"Regional generation/storage queue context from LBNL Queued Up workbook; not a site-specific load interconnection position."
+Southeast,970,170000,4.7,High,"Regional generation/storage queue context from LBNL Queued Up workbook; not a site-specific load interconnection position."

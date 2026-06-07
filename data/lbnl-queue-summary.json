@@ -1,0 +1,40 @@
+{
+  "source": {
+    "name": "LBNL U.S. Interconnection Queue Data Through 2025",
+    "url": "https://eta.lbl.gov/publications/us-interconnection-queue-data-0"
+  },
+  "regions": {
+    "PJM": {
+      "region": "PJM",
+      "activeProjects": 2340,
+      "activeMw": 365000,
+      "typicalWaitYears": 5.0,
+      "congestionLevel": "High",
+      "note": "Regional generation/storage queue context from LBNL Queued Up workbook; not a site-specific load interconnection position."
+    },
+    "MISO": {
+      "region": "MISO",
+      "activeProjects": 1880,
+      "activeMw": 315000,
+      "typicalWaitYears": 5.6,
+      "congestionLevel": "Severe",
+      "note": "Regional generation/storage queue context from LBNL Queued Up workbook; not a site-specific load interconnection position."
+    },
+    "ERCOT": {
+      "region": "ERCOT",
+      "activeProjects": 1160,
+      "activeMw": 255000,
+      "typicalWaitYears": 3.8,
+      "congestionLevel": "Moderate",
+      "note": "Regional generation/storage queue context from LBNL Queued Up workbook; not a site-specific load interconnection position."
+    },
+    "Southeast": {
+      "region": "Southeast",
+      "activeProjects": 970,
+      "activeMw": 170000,
+      "typicalWaitYears": 4.7,
+      "congestionLevel": "High",
+      "note": "Regional generation/storage queue context from LBNL Queued Up workbook; not a site-specific load interconnection position."
+    }
+  }
+}
